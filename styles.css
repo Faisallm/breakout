@@ -1,0 +1,35 @@
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 80px;
+}
+
+.block {
+    /* so that we can use the left margin to
+    position our block */
+    /* positioned relative to the nearest
+    positioned parent element */
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: blue;
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: purple;
+}
+
+.ball {
+    /* positioned relative to the nearest positioned
+    parent element which is the grid. */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: red;
+}
